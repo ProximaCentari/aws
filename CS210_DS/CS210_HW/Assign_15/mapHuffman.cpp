@@ -89,11 +89,11 @@ public:
 	}
 
 	void draw(Node* treePtr, string lpad, string rpad, string coding) const {
-        string pad = lpad.substr(0, lpad.size() - 1);
-        if (treePtr == nullptr)	return;
-        draw(treePtr->right, rpad + "    |", rpad + "     ", coding + "1");
-        cout << pad << "+--" << setw(3) << treePtr->freq << treePtr->val << coding << endl;
-        draw(treePtr->left, lpad + "     ", lpad + "    |", coding + "0");
+        	string pad = lpad.substr(0, lpad.size() - 1);
+        	if (treePtr == nullptr)	return;
+        	draw(treePtr->right, rpad + "    |", rpad + "     ", coding + "1");
+        	cout << pad << "+--" << setw(3) << treePtr->freq << treePtr->val << coding << endl;
+        	draw(treePtr->left, lpad + "     ", lpad + "    |", coding + "0");
     }
 };
 
