@@ -1,3 +1,1 @@
-This Repo represent a subset of my work done with AWS Cloud9.  
-
-I've highlighted here some of my favorite projects.
+This was a school project from my Data structures & Algorithms class while @ DVC.edu
